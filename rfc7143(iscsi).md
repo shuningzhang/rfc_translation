@@ -1,3 +1,4 @@
+```
 Internet Engineering Task Force (IETF)                    M. Chadalapaka
 Request for Comments: 7143                                     Microsoft
 Obsoletes: 3720, 3980, 4850, 5048                              J. Satran
@@ -8,12 +9,10 @@ ISSN: 2070-1721                                                      IBM
                                                                      EMC
                                                               April 2014
 
+```
+#       Internet Small Computer System Interface (iSCSI) Protocol
 
-       Internet Small Computer System Interface (iSCSI) Protocol
-                             (Consolidated)
-
-Abstract
-摘要
+## Abstract(摘要)
 
    This document describes a transport protocol for SCSI that works on
    top of TCP.  The iSCSI protocol aims to be fully compliant with the
@@ -75,8 +74,9 @@ Copyright Notice
    the Trust Legal Provisions and are provided without warranty as
    described in the Simplified BSD License.
 
-Table of Contents
+## Table of Contents
 
+```
    1. Introduction ...................................................11
    2. Acronyms, Definitions, and Document Summary ....................11
       2.1. Acronyms ..................................................11
@@ -107,7 +107,7 @@ Table of Contents
                            4.2.2.3.4. Current List of Fenced
                                       Response Use Cases .............34
                   4.2.2.4. Data Sequencing ...........................35
-
+```
 
 
 
@@ -115,7 +115,7 @@ Chadalapaka, et al.          Standards Track                    [Page 2]
 
 RFC 7143                  iSCSI (Consolidated)                April 2014
 
-
+```
            4.2.3. iSCSI Task Management ..............................36
                   4.2.3.1. Task Management Overview ..................36
                   4.2.3.2. Notion of Affected Tasks ..................36
@@ -164,14 +164,14 @@ RFC 7143                  iSCSI (Consolidated)                April 2014
 
 
 
-
+```
 
 
 Chadalapaka, et al.          Standards Track                    [Page 3]
 
 RFC 7143                  iSCSI (Consolidated)                April 2014
 
-
+```
            4.6.3. Requests/Responses Carrying iSCSI-Only Payload .....69
                   4.6.3.1. Text Requests and Text Responses ..........69
                   4.6.3.2. Login Requests and Login Responses ........70
@@ -275,7 +275,7 @@ RFC 7143                  iSCSI (Consolidated)                April 2014
       9.5. SCSI Access Control Considerations .......................143
 
 
-
+```
 
 
 
