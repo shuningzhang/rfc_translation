@@ -35,7 +35,7 @@ ISSN: 2070-1721                                                      IBM
    updates RFC 3721.  The text in this document thus supersedes the text
    in all the noted RFCs wherever there is a difference in semantics.
 
-Status of This Memo
+## Status of This Memo (本存档的状态)
 
    This is an Internet Standards Track document.
 
@@ -50,16 +50,7 @@ Status of This Memo
    http://www.rfc-editor.org/info/rfc7143.
 
 
-
-
-
-
-Chadalapaka, et al.          Standards Track                    [Page 1]
-
-RFC 7143                  iSCSI (Consolidated)                April 2014
-
-
-Copyright Notice
+## Copyright Notice (版权告知)
 
    Copyright (c) 2014 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
@@ -107,15 +98,6 @@ Copyright Notice
                            4.2.2.3.4. Current List of Fenced
                                       Response Use Cases .............34
                   4.2.2.4. Data Sequencing ...........................35
-```
-
-
-
-Chadalapaka, et al.          Standards Track                    [Page 2]
-
-RFC 7143                  iSCSI (Consolidated)                April 2014
-
-```
            4.2.3. iSCSI Task Management ..............................36
                   4.2.3.1. Task Management Overview ..................36
                   4.2.3.2. Notion of Affected Tasks ..................36
@@ -161,17 +143,6 @@ RFC 7143                  iSCSI (Consolidated)                April 2014
            4.6.2. Requests/Responses Carrying SCSI and iSCSI
                   Payload ............................................69
                   4.6.2.1. Asynchronous Message ......................69
-
-
-
-```
-
-
-Chadalapaka, et al.          Standards Track                    [Page 3]
-
-RFC 7143                  iSCSI (Consolidated)                April 2014
-
-```
            4.6.3. Requests/Responses Carrying iSCSI-Only Payload .....69
                   4.6.3.1. Text Requests and Text Responses ..........69
                   4.6.3.2. Login Requests and Login Responses ........70
@@ -217,17 +188,6 @@ RFC 7143                  iSCSI (Consolidated)                April 2014
                   7.4.2.1. Unnamed Discovery Sessions ...............103
                   7.4.2.2. Named Discovery Sessions .................103
            7.4.3. Target PDUs during Discovery ......................103
-
-
-
-
-
-
-Chadalapaka, et al.          Standards Track                    [Page 4]
-
-RFC 7143                  iSCSI (Consolidated)                April 2014
-
-
       7.5. Connection Timeout Management ............................104
            7.5.1. Timeouts on Transport Exception Events ............104
            7.5.2. Timeouts on Planned Decommissioning ...............104
@@ -273,17 +233,6 @@ RFC 7143                  iSCSI (Consolidated)                April 2014
                   Cryptographic Key Management ......................139
       9.4. Security Considerations for the X#NodeArchitecture Key ...141
       9.5. SCSI Access Control Considerations .......................143
-
-
-```
-
-
-
-Chadalapaka, et al.          Standards Track                    [Page 5]
-
-RFC 7143                  iSCSI (Consolidated)                April 2014
-
-
    10. Notes to Implementers ........................................143
       10.1. Multiple Network Adapters ...............................143
            10.1.1. Conservative Reuse of ISIDs ......................143
@@ -328,18 +277,6 @@ RFC 7143                  iSCSI (Consolidated)                April 2014
            11.4.2. Status ...........................................163
            11.4.3. Response .........................................163
            11.4.4. SNACK Tag ........................................164
-
-
-
-
-
-
-
-Chadalapaka, et al.          Standards Track                    [Page 6]
-
-RFC 7143                  iSCSI (Consolidated)                April 2014
-
-
            11.4.5. Residual Count ...................................164
                   11.4.5.1. Field Semantics .........................164
                   11.4.5.2. Residuals Concepts Overview .............164
@@ -384,18 +321,6 @@ RFC 7143                  iSCSI (Consolidated)                April 2014
            11.9.3. LUN ..............................................189
            11.9.4. Sense Data and iSCSI Event Data ..................190
                   11.9.4.1. SenseLength .............................190
-
-
-
-
-
-
-
-Chadalapaka, et al.          Standards Track                    [Page 7]
-
-RFC 7143                  iSCSI (Consolidated)                April 2014
-
-
       11.10. Text Request ...........................................191
            11.10.1. F (Final) Bit ...................................192
            11.10.2. C (Continue) Bit ................................192
@@ -442,16 +367,6 @@ RFC 7143                  iSCSI (Consolidated)                April 2014
            11.15.2. TotalAHSLength and DataSegmentLength ............212
            11.15.3. Time2Wait .......................................212
            11.15.4. Time2Retain .....................................212
-
-
-
-
-
-Chadalapaka, et al.          Standards Track                    [Page 8]
-
-RFC 7143                  iSCSI (Consolidated)                April 2014
-
-
       11.16. SNACK Request ..........................................213
            11.16.1. Type ............................................214
            11.16.2. Data Acknowledgment .............................215
@@ -500,14 +415,6 @@ RFC 7143                  iSCSI (Consolidated)                April 2014
       13.18. DataPDUInOrder .........................................240
       13.19. DataSequenceInOrder ....................................240
       13.20. ErrorRecoveryLevel .....................................241
-
-
-
-Chadalapaka, et al.          Standards Track                    [Page 9]
-
-RFC 7143                  iSCSI (Consolidated)                April 2014
-
-
       13.21. SessionType ............................................241
       13.22. The Private Extension Key Format .......................242
       13.23. TaskReporting ..........................................242
@@ -552,19 +459,11 @@ RFC 7143                  iSCSI (Consolidated)                April 2014
      E.1. Clearing Effects on iSCSI Objects .........................288
      E.2. Clearing Effects on SCSI Objects ..........................293
    Acknowledgments ..................................................294
+```
 
 
 
-
-
-
-
-Chadalapaka, et al.          Standards Track                   [Page 10]
-
-RFC 7143                  iSCSI (Consolidated)                April 2014
-
-
-1.  Introduction
+## 1.  Introduction(简介)
 
    The Small Computer System Interface (SCSI) is a popular family of
    protocols for communicating with I/O devices, especially storage
